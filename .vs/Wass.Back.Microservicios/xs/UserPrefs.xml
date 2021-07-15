@@ -1,0 +1,114 @@
+﻿<Properties StartupConfiguration="wass">
+  <MonoDevelop.Ide.ItemProperties.Wass.Back.Empresa PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Wass.Back.Empresa/Models/Entity/Turnos.cs">
+    <Files>
+      <File FileName="Wass.Back.Seguridad/Program.cs" Line="16" Column="1" />
+      <File FileName="Wass.Back.Seguridad/appsettings.json" />
+      <File FileName="Wass.Back.Seguridad/Properties/launchSettings.json" />
+      <File FileName="Wass.Back.Programador/Properties/launchSettings.json" />
+      <File FileName="Wass.Back.Empresa/Properties/launchSettings.json" />
+      <File FileName="Wass.Back.Seguridad/Startup.cs" />
+      <File FileName="Wass.Back.Seguridad/Configuraciones/ServicesConfiguration.cs" />
+      <File FileName="Wass.Back.Programador/Startup.cs" />
+      <File FileName="Wass.Back.Programador/Configuraciones/ServicesConfiguration.cs" />
+      <File FileName="Wass.Back.Empresa/Configuraciones/ServicesConfiguration.cs" />
+      <File FileName="Wass.Back.Empresa/Startup.cs" />
+      <File FileName="Wass.Back.Programador/Program.cs" />
+      <File FileName="Wass.Back.Empresa/Program.cs" />
+      <File FileName="Wass.Back.Seguridad/Configuraciones/ConfigureAppSettings.cs" />
+      <File FileName="Wass.Back.Seguridad/Rabbit/DALC/DALCUsuarios.cs" />
+      <File FileName="Wass.Back.Seguridad/Models/Entity/Usuarios.cs" />
+      <File FileName="Wass.Back.Seguridad/Models/Entity/UsuariosContacto.cs" />
+      <File FileName="Wass.Back.Seguridad/Kiwi/Bussines/BOUsuario.cs" />
+      <File FileName="Wass.Back.Empresa/Rabbit/DALC/DALCEmpleados.cs" />
+      <File FileName="Wass.Back.Empresa/Rabbit/DALC/DALCCentroCosto.cs" />
+      <File FileName="Wass.Back.Empresa/Kiwi/Bussines/BOCentroCosto.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/CentroCosto.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/Empleados.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/Empresas.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/Listas.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/Municipios.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/Paises.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/OrdenEntregaAlmacen.cs" />
+      <File FileName="Wass.Back.Empresa/Rabbit/DALC/DALCCuadrillas.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/Cuadrillas.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/ActivosEquipos.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/Skill.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/ActivosUbicacion.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/ActivosAdquisicion.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/ActivosCaracteristicas.cs" />
+      <File FileName="Wass.Back.Empresa/Rabbit/DALC/DALCActivosFlotas.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/ActivosFlotas.cs" />
+      <File FileName="Wass.Back.Empresa/Rabbit/DALC/DALCActivosEquipos.cs" />
+      <File FileName="Wass.Back.Empresa/Kiwi/Bussines/BOActivosEquipos.cs" />
+      <File FileName="Wass.Back.Empresa/Rabbit/Context/EmpresaContext.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/Marca.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/Departamentos.cs" />
+      <File FileName="Wass.Back.Empresa/Rabbit/DALC/DALCMunicipios.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/Sedes.cs" />
+      <File FileName="Wass.Back.Empresa/Rabbit/DALC/DALCSedes.cs" />
+      <File FileName="Wass.Back.Empresa/Migrations/20210628021759_camposSedesnuevo.cs" />
+      <File FileName="Wass.Back.Empresa/Migrations/20210628021909_camposSedesnuevo2.cs" />
+      <File FileName="Wass.Back.Empresa/Migrations/20210609192428_migracionWassCompleta1.cs" />
+      <File FileName="Wass.Back.Empresa/Migrations/EmpresaContextModelSnapshot.cs" />
+      <File FileName="Wass.Back.Empresa/Kiwi/Bussines/BOSedes.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Peticiones/v1/Empresa/RequestSede.cs" />
+      <File FileName="Wass.Back.Empresa/Models/Entity/Turnos.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Wass.Back.Microservicios" expanded="True">
+            <Node name="Wass.Back.Empresa" expanded="True">
+              <Node name="Configuraciones" expanded="True" />
+              <Node name="Kiwi" expanded="True">
+                <Node name="Bussines" expanded="True" />
+              </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Entity" expanded="True">
+                  <Node name="Turnos.cs" selected="True" />
+                </Node>
+                <Node name="Peticiones" expanded="True">
+                  <Node name="v1" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Rabbit" expanded="True">
+                <Node name="Context" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Wass.Back.Seguridad" expanded="True">
+              <Node name="Configuraciones" expanded="True" />
+              <Node name="Kiwi" expanded="True">
+                <Node name="Bussines" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="Entity" expanded="True" />
+              </Node>
+              <Node name="Rabbit" expanded="True">
+                <Node name="DALC" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Wass.Back.Programador PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="wass" Name="wass">
+      <Items>
+        <StartupItem ItemId="{A1506741-3815-477B-8645-D37DB708025D}" ItemName="Wass.Back.Empresa" ConfigurationId="Default" />
+        <StartupItem ItemId="{D9C5EE58-D681-40D8-AF41-9729D2C98A42}" ItemName="Wass.Back.Programador" ConfigurationId="Default" />
+        <StartupItem ItemId="{ABB8C79B-93DA-4FC7-9206-65542818AC7D}" ItemName="Wass.Back.Seguridad" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.Wass.Back.Seguridad PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

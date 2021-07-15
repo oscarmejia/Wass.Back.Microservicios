@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.7">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.11.1" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.11.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Kiwi\" />
+    <Folder Include="Models\" />
+    <Folder Include="Rabbit\" />
+    <Folder Include="Kiwi\Bussines\" />
+    <Folder Include="Kiwi\Interface\" />
+    <Folder Include="Kiwi\Utility\" />
+    <Folder Include="Models\Entity\" />
+    <Folder Include="Models\Enum\" />
+    <Folder Include="Models\Peticiones\" />
+    <Folder Include="Rabbit\DALC\" />
+    <Folder Include="Rabbit\Context\" />
+    <Folder Include="Rabbit\Interface\" />
+    <Folder Include="Rabbit\Utility\" />
+    <Folder Include="Configuraciones\" />
+    <Folder Include="Models\Peticiones\v1\" />
+    <Folder Include="Models\Peticiones\v1\Base\" />
+    <Folder Include="Models\Peticiones\v1\Correo\" />
+    <Folder Include="Models\Peticiones\v1\Empresa\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Controllers\v1\" />
+    <Folder Include="Models\Peticiones\v1\ActivoParada\" />
+    <Folder Include="Models\Peticiones\v1\Turno\" />
+    <Folder Include="Models\Peticiones\v1\TransferenciasInternasAlmacenes\" />
+    <Folder Include="Models\Peticiones\v1\SolicitudPedido\" />
+    <Folder Include="Models\Peticiones\v1\RespuestaActivosVariables\" />
+    <Folder Include="Models\Peticiones\v1\RepuestosAlmacen\" />
+    <Folder Include="Models\Peticiones\v1\RecepcionRepuestos\" />
+    <Folder Include="Models\Peticiones\v1\Preguntas\" />
+    <Folder Include="Models\Peticiones\v1\OrdenEntregaAlmacen\" />
+    <Folder Include="Models\Peticiones\v1\KardexRepuesto\" />
+    <Folder Include="Models\Peticiones\v1\Skill\" />
+    <Folder Include="Models\Peticiones\v1\DiagnosticoSkillsEmpresa\" />
+    <Folder Include="Models\Peticiones\v1\CuadrillaSkillsEmpresa\" />
+    <Folder Include="Models\Peticiones\v1\Cuadrilla\" />
+    <Folder Include="Models\Peticiones\v1\Comentario\" />
+    <Folder Include="Models\Peticiones\v1\Certificacion\" />
+    <Folder Include="Models\Peticiones\v1\CentroCosto\" />
+    <Folder Include="Models\Peticiones\v1\Calificacion\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+  </ItemGroup>
+</Project>
